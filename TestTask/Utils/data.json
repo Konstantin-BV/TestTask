@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "width": 10,
+    "height": 10,
+    "depth": 10,
+    "weight": 30,
+    "Boxs": [
+      {
+        "id": 1,
+        "width": 1,
+        "height": 2,
+        "depth": 1,
+        "weight": 2,
+        "productionDate": "2024-02-19T00:00:00"
+      },
+      {
+        "id": 2,
+        "width": 3,
+        "height": 2,
+        "depth": 2,
+        "weight": 3,
+        "productionDate": "2024-01-15T00:00:00"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "width": 15,
+    "height": 12,
+    "depth": 14,
+    "weight": 30,
+    "Boxs": [
+      {
+        "id": 3,
+        "width": 1,
+        "height": 2,
+        "depth": 1,
+        "weight": 7,
+        "productionDate": "2023-12-19T00:00:00"
+      },
+      {
+        "id": 4,
+        "width": 3,
+        "height": 2,
+        "depth": 2,
+        "weight": 3,
+        "productionDate": "2024-04-01T00:00:00"
+      },
+      {
+        "id": 5,
+        "width": 6,
+        "height": 2,
+        "depth": 3,
+        "weight": 1,
+        "productionDate": "2024-02-10T00:00:00"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "width": 11,
+    "height": 13,
+    "depth": 12,
+    "weight": 30,
+    "Boxs": [
+      {
+        "id": 6,
+        "width": 1,
+        "height": 2,
+        "depth": 1,
+        "weight": 2,
+        "productionDate": "2023-12-29T00:00:00"
+      },
+      {
+        "id": 7,
+        "width": 3,
+        "height": 2,
+        "depth": 2,
+        "weight": 3,
+        "productionDate": "2024-01-05T00:00:00"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "width": 13,
+    "height": 11,
+    "depth": 16,
+    "weight": 30,
+    "Boxs": [
+      {
+        "id": 8,
+        "width": 1,
+        "height": 2,
+        "depth": 1,
+        "weight": 6,
+        "productionDate": "2023-12-20T00:00:00"
+      },
+      {
+        "id": 9,
+        "width": 3,
+        "height": 2,
+        "depth": 2,
+        "weight": 3,
+        "productionDate": "2024-04-03T00:00:00"
+      },
+      {
+        "id": 10,
+        "width": 6,
+        "height": 2,
+        "depth": 3,
+        "weight": 1,
+        "productionDate": "2024-02-14T00:00:00"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "width": 13,
+    "height": 18,
+    "depth": 12,
+    "weight": 30,
+    "Boxs": [
+      {
+        "id": 11,
+        "width": 1,
+        "height": 2,
+        "depth": 1,
+        "weight": 3,
+        "productionDate": "2023-12-29T00:00:00"
+      },
+      {
+        "id": 12,
+        "width": 3,
+        "height": 2,
+        "depth": 2,
+        "weight": 4,
+        "productionDate": "2024-01-05T00:00:00"
+      }
+    ]
+  }
+]
