@@ -63,7 +63,7 @@ namespace TestTask
             Console.WriteLine($"Width: {width}");
             Console.WriteLine($"Height: {height}");
             Console.WriteLine($"Depth: {depth}");
-            Console.WriteLine($"Qeight: {getWeight()}");
+            Console.WriteLine($"Weight: {getWeight()}");
             Console.WriteLine($"Volume: {CalculatingVolume()}");
             Console.WriteLine($"Expiration date: {getExpirationDate()}");
             Console.WriteLine("Boxs: ");
@@ -74,6 +74,4 @@ namespace TestTask
             Console.WriteLine(" ");
         }
     }
-
-
 }

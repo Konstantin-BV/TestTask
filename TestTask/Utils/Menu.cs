@@ -1,8 +1,4 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Diagnostics;
-using System.IO;
-using System.Reflection;
+﻿using System;
 using TestTask.Utils;
 
 namespace TestTask
@@ -17,11 +13,9 @@ namespace TestTask
         const string Continuation = "Нажмите любую клавишу для продолжения...";
         public static void Start()
         {
-            string[] menuItems = { menuItemOne , menuItemTwo, exit };
+            string[] menuItems = { menuItemOne, menuItemTwo, exit };
             int selectedIndex = 0;
-
             Pallets[] parents = ReadJson.ReadPallets();
-
             while (true)
             {
                 Console.Clear();
@@ -40,9 +34,7 @@ namespace TestTask
                     Console.WriteLine(menuItems[i]);
                     Console.ResetColor();
                 }
-
                 ConsoleKeyInfo keyInfo = Console.ReadKey();
-
                 switch (keyInfo.Key)
                 {
                     case ConsoleKey.UpArrow:

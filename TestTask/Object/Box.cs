@@ -11,11 +11,7 @@ namespace TestTask
         public int weight;
         public DateTime productionDate;
 
-        public int getId() { return id; }
-
         public int getWeighth() { return weight; }
-
-        public int getHeight() { return height; }
 
         public DateTime getExpirationDate()
         {
