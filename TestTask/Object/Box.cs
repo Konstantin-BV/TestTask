@@ -11,14 +11,14 @@ namespace TestTask
         public int weight;
         public DateTime productionDate;
 
-        public int getWeighth() { return weight; }
+        public int GetWeighth() { return weight; }
 
         public DateTime getExpirationDate()
         {
             return productionDate.AddDays(100);
         }
 
-        public int volume() { return width * height * depth; }
+        public int Volume() { return width * height * depth; }
 
         public void Writ()
         {

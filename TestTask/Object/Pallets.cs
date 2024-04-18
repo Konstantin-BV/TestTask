@@ -25,7 +25,7 @@ namespace TestTask
             return minDate;
         }
 
-        public DateTime getExpirationDate()
+        public DateTime GetExpirationDate()
         {
             return CalculatingExpirationDate();
         }
@@ -41,7 +41,7 @@ namespace TestTask
             int AllWeight = 30;
             for (int i = 0; i < Boxs.Count; i++)
             {
-                AllWeight += Boxs[i].getWeighth();
+                AllWeight += Boxs[i].GetWeighth();
             }
             weight = AllWeight;
         }
@@ -51,7 +51,7 @@ namespace TestTask
             int AllVolume = width * height * depth; ;
             for (int i = 0; i < Boxs.Count; i++)
             {
-                AllVolume += Boxs[i].volume();
+                AllVolume += Boxs[i].Volume();
             }
             return AllVolume;
         }
@@ -65,7 +65,7 @@ namespace TestTask
             Console.WriteLine($"Depth: {depth}");
             Console.WriteLine($"Weight: {getWeight()}");
             Console.WriteLine($"Volume: {CalculatingVolume()}");
-            Console.WriteLine($"Expiration date: {getExpirationDate()}");
+            Console.WriteLine($"Expiration date: {GetExpirationDate()}");
             Console.WriteLine("Boxs: ");
             for (int i = 0; i < Boxs.Count; i++)
             {

@@ -11,14 +11,14 @@
                 flag = false;
                 for (int i = 1; i < Array.Length; i++)
                 {
-                    if (Array[i].getExpirationDate() < Array[i - 1].getExpirationDate())
+                    if (Array[i].GetExpirationDate() < Array[i - 1].GetExpirationDate())
                     {
                         a = Array[i - 1];
                         Array[i - 1] = Array[i];
                         Array[i] = a;
                         flag = true;
                     }
-                    if (Array[i].getExpirationDate() == Array[i - 1].getExpirationDate() && Array[i].getWeight() < Array[i - 1].getWeight())
+                    if (Array[i].GetExpirationDate() == Array[i - 1].GetExpirationDate() && Array[i].getWeight() < Array[i - 1].getWeight())
                     {
                         a = Array[i - 1];
                         Array[i - 1] = Array[i];
@@ -38,7 +38,7 @@
                 flag = false;
                 for (int i = 1; i < Array.Length; i++)
                 {
-                    if (Array[i].getExpirationDate() < Array[i - 1].getExpirationDate())
+                    if (Array[i].GetExpirationDate() < Array[i - 1].GetExpirationDate())
                     {
                         a = Array[i - 1];
                         Array[i - 1] = Array[i];
